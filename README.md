@@ -23,9 +23,9 @@ Original:
 ```
 Changed to:
 ```latex
-%\usepackage{fontspec}                 % for local compile
-%\setmainfont{Times New Roman}         % for local compile
-\usepackage{times}                   % for Overleaf
+%\usepackage{fontspec}                % for local compile
+%\setmainfont{Times New Roman}        % for local compile
+\usepackage{times}                    % for Overleaf
 ```
 5. Compile
 # License
