@@ -9,7 +9,7 @@ I created this template as managing content as well as format in Microsoft - wor
 1. Download this repo ```git clone https://github.com/t3isuan/CV_template.git``` 
 2. Open ``CV_template.tex`` with some text editor (VS Code, Sublime Text, etc.)
 3. Compile ``CV_template.tex`` directly. 
-(Please make sure your computer has already installed LaTex and corresponding extensions)
+(Please make sure your computer has already installed LaTeX and corresponding extensions)
 ### For Overleaf users:
 1. Download this repo (same as **For local compile users**)
 2. Compile the folder ``CV_template`` to zip file
