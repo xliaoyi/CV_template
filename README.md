@@ -12,7 +12,7 @@ I created this template as managing content as well as format in Microsoft - wor
 (Please make sure your computer has already installed LaTeX and corresponding extensions)
 ### For Overleaf users:
 1. Download this repo (same as **For local compile users**)
-2. Compile the folder ``CV_template`` to zip file
+2. Compress the folder ``CV_template`` to zip file
 3. Go to https://www.overleaf.com/project -> click 'New Project' -> click 'Upload Project' -> drag CV_template.zip (which you have compressed in step 2) to 'Upload Zipped Project' box
 4. Open ``CV_template.tex``, edit line 18-20 as following:
 
