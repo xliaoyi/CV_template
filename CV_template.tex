@@ -1,0 +1,202 @@
+%-------------------------
+% Curriculum Vitae in Latex
+% Author : Liaoyi Xu
+% Github: https://github.com/t3isuan/CV_template
+% License : MIT
+%
+% PS: The structure of this CV is copied from Jian Zhou, Ph.D. 
+%     Lab website: https://zhoulab.io/thepi
+%------------------------
+
+
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{fontspec}                 % for local compile
+\setmainfont{Times New Roman}         % for local compile
+%\usepackage{times}                   % for Overleaf
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=cyan,
+}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{\small{Liaoyi Xu}}
+ \cfoot{\small{\today}}
+ \rfoot{\small{\thepage/3}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%---------------------------------------------------------------
+%                          Start here
+%---------------------------------------------------------------
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\begin{table}[h]
+
+{\def\arraystretch{1.2}\tabcolsep=0pt
+\begin{tabular}{p{0.6\linewidth}p{0.1\linewidth}p{0.3\linewidth}}
+
+  {\LARGE \textbf{Liaoyi Xu}} &  &  \\
+
+  & & \\
+  
+  College of Animal Science & \makecell[r]{Phone:\ \ \ \ \ } & +86 153-0659-5011 \\
+  
+  Zhejiang University & \makecell[r]{Email:\ \ \ \ \ } & \href{mailto:i.y.teisuan@gmail.com}{i.y.teisuan@gmail.com}\\
+  
+  866 Yuhangtang Road, &  & \\
+  
+  Hangzhou 310058, PR China &  &  \\
+
+\end{tabular}
+}
+\end{table}
+
+%---------------------------------------------------------------
+%                           Education
+%---------------------------------------------------------------
+
+\subsubsection*{EDUCATION}
+
+\renewcommand\arraystretch{1.5}\tabcolsep=0pt
+\begin{longtable}{p{0.2\linewidth}p{0.8\linewidth}}
+    \textbf{2018 -- 2021} & \textit{M.A.}, Animal Science, \textbf{Zhejiang University}, Hanzghou, China \\
+  %& Thesis Title: Molecular Characteristics and Functional Analysis of \textit{Bx42} in \textit{Macrobrachium nipponense} \\
+  %& Supervisors: Haisheng Xu, Ph.D. \\
+  
+  \textbf{2014 -- 2018} & \textit{B.A.}, Life Science and Technology, \textbf{Southwest University for Nationalities}, Chengdu, China \\
+
+\end{longtable}
+
+\vspace{0.5cm}
+
+%---------------------------------------------------------------
+%                    Research Experience
+%---------------------------------------------------------------
+
+\subsubsection*{RESEARCH EXPERIENCE}\label{Research Experience}
+
+\renewcommand\arraystretch{1.5}\tabcolsep=0pt
+\begin{longtable}{p{0.2\linewidth}p{0.8\linewidth}}
+    %\textbf{2021 -- Present}   & Research Assistant, \textbf{Westlake University} 
+    %                          
+    %                             Supervisor: Lijia Ma, \textit{Ph.D.} \\
+
+    \textbf{2018 -- 2021}     & Master's Research, \textbf{Zhejiang University} 
+                              
+                                Focus on molecular mechanisms of innate immune system regulation 
+                              
+                                Thesis Title: Molecular Characteristics and Functional Analysis of \textit{Bx42} in \textit{Macrobrachium nipponense} 
+                              
+                                Supervisor: Haisheng Xu, \textit{Ph.D.} \\
+                                
+    \textbf{2014 -- 2018}     & Bachelor's Research, \textbf{Southwest  University  for  Nationalities}
+                              
+                                Thesis Title: Cloning and bioinformatic analysis of inhibin alpha (\textit{INHA}) gene in \textit{Bos mutus} 
+                              
+                                Supervisor: Xiangdong Zi, \textit{M.S.} \\
+
+\end{longtable}
+
+\vspace{0.5cm}
+%---------------------------------------------------------------
+%                           Key skills
+%---------------------------------------------------------------
+
+\subsubsection*{KEY SKILLS}\label{Key skills}
+\renewcommand\arraystretch{1.5}\tabcolsep=0pt
+\begin{longtable}{p{0.25\linewidth}p{0.75\linewidth}}
+    \textbf{Cellular biology:} & HEK293 cell culture, transfection and eukaryotic expression, dual-luciferase reporter assay, liquid and solid culture of bacteria, transfection and prokaryotic expression, confocal microscope, scanning electron microscope, flow cytometry. \\
+    
+    \textbf{Molecular biology:} & RNA/DNA extraction and purification, PCR, qRT-PCR, rapid amplification of cDNA ends (RACE), agarose gel electrophoresis, primer design, digestion, ligation, cloning, siRNA and dsRNA interference. \\
+    
+    \textbf{Biochemistry:} & Western blot, immunofluorescence, immunohistochemistry, enzymatic activity assay. \\
+    
+    \textbf{Computer proficiency:} & Master at GraphPad, Adobe Illustrator, FlowJo, ImageJ, Photoshop, SPSS, Word, Excel, PowerPoint etc. 
+    
+                                     Familiar with Linux, Bash, R, Python, C, \LaTeX, Tensorflow. 
+                                     
+                                     Beginner of Deep-learning (Convolutional Neural Networks, Recurrent Neural Network). \\
+    
+    \textbf{Interpersonal:} & Analytically minded, well-organized and conscientious. \\
+    
+    \textbf{Languages:} & English: good standard
+    
+                          (TOEFL: 93 – Reading 26, Listening 24, Speaking 22, Writing 21)
+    
+                          Chinese: native\\
+    
+    
+\end{longtable}
+
+\vspace{0.5cm}
+
+%---------------------------------------------------------------
+%                       Awards & Honors
+%---------------------------------------------------------------
+
+\subsubsection*{AWARDS \& HONORS}\label{Awards & Honors}
+
+\renewcommand\arraystretch{1.5}\tabcolsep=0pt
+\begin{longtable}{p{0.2\linewidth}p{0.8\linewidth}}
+    \textbf{2021}            &     Excellent Postgraduate Students' Award\\
+    \textbf{2020}            &     Sunshine Scholarship \\
+    \textbf{2020}            &     Graduate of Merit / Triple A Graduate \\
+    \textbf{2020}            &     Award of Honor for Graduate \\
+    \textbf{2018 -- 2020}    &     Academic Scholarship \\
+    \textbf{2018}            &     Excellent Graduate Students' Award\\
+    \textbf{2014 -- 2018}    &     The Agriculture \& Forestry Scholarship \\
+    
+\end{longtable}
+
+\vspace{0.5cm}
+
+%---------------------------------------------------------------
+%                          Publications
+%---------------------------------------------------------------
+
+\subsubsection*{PUBLICATIONS}\label{Publications}
+\vspace{0.45cm}
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item \textbf{\underline{Liaoyi Xu}}, Xiefei Zhou, Yue Wu, JingJing Yang, Haisheng Xu* (2020) ``A novel SNW/SKIP domain-containing protein, Bx42, is involved in the antibacterial responses of \textit{Macrobrachium nipponense}" \textbf{\textit{Developmental \& Comparative Immunology}}. \\
+  DOI: \href{https://doi.org/10.1016/j.dci.2020.103788}{10.1016/j.dci.2020.103788}
+
+  \item \textbf{\underline{Liaoyi Xu}}, Yue Wu, Xiefei Zhou, Peichen Wang, Haisheng Xu* (2020) ``Characterization and immune function of decapentaplegic (Dpp) gene from the oriental river prawn, \textit{Macrobrachium nipponense}" \textbf{\textit{Fish \& Shellfish Immunology}}. \\  
+  DOI: \href{https://doi.org/10.1016/j.fsi.2020.08.044}{10.1016/j.fsi.2020.08.044}
+  
+  \item \textbf{\underline{Liaoyi Xu}}, Xiefei Zhou, Peichen Wang, Qian Jin, Tingyao Zhu, Ming Chen, Haisheng Xu* (2020) ``The six LIM and one PET domain-containing protein Lmpt is involved in the immune response through activation of the NF-$\kappa$B signalling pathway in \textit{Macrobrachium nipponense}" \textbf{\textit{Developmental \& Comparative Immunology}}. \\
+  DOI: \href{https://doi.org/10.1016/j.dci.2020.103948}{10.1016/j.dci.2020.103948}
+
+  \item Wei Zhang, Qiangqiang Chen, \textbf{\underline{Liaoyi Xu}}, Jianfeng Cai, Jinzhi Zhang* (2020) ``The potential role of PSMA6 in modulating fat deposition in pigs by promoting preadipocyte proliferation and differentiation" \textbf{\textit{Gene}}. \\
+  DOI: \href{https://doi.org/10.1016/j.gene.2020.145228}{10.1016/j.gene.2020.145228}
+
+  \item Yue Wu, Yuxiao Sun, Wanrong Zhang, Jingjing Yang, Xiefei Zhou, \textbf{\underline{Liaoyi Xu}}, Peichen Wang, Haisheng Xu (2020) ``Molecular cloning, characterization, and expression analysis of lipopolysaccharide-induced TNF-$\alpha$ factor (LITAF) in the mud crab, \textit{Scylla paramamosain}" \textbf{\textit{Crustaceana}}. \\
+  DOI: \href{https://doi.org/10.1163/15685403-bja10037}{10.1163/15685403-bja10037}
+  
+  \item Tingyao Zhu, Xiefei Zhou, Wei Zhang, Yue Wu, Jingjing Yang, \textbf{\underline{Liaoyi Xu}}, Ming Chen, Weiren Dong*, Haisheng Xu* (2020) ``Multiplex and real-time PCR for qualitative and quantitative donkey meat adulteration" \textbf{\textit{Journal of Food Measurement \& Characterization}}. \\
+  DOI: \href{https://doi.org/10.1007/s11694-020-00717-5}{10.1007/s11694-020-00717-5}  
+
+\end{enumerate}
+\end{document}
