@@ -15,6 +15,7 @@ I created this template as managing content as well as format in Microsoft - wor
 2. Compile the folder ``CV_template`` to zip file
 3. Go to https://www.overleaf.com/project -> click 'New Project' -> click 'Upload Project' -> drag CV_template.zip (which you have compressed in step 2) to 'Upload Zipped Project' box
 4. Open ``CV_template.tex``, edit line 18-20 as following:
+
 Original:
 ```latex
 \usepackage{fontspec}                 % for local compile
