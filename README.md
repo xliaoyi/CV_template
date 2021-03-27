@@ -22,7 +22,7 @@ Original:
 \setmainfont{Times New Roman}         % for local compile
 %\usepackage{times}                   % for Overleaf
 ```
-Changed to:
+Change to:
 ```latex
 %\usepackage{fontspec}                % for local compile
 %\setmainfont{Times New Roman}        % for local compile
